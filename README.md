@@ -4,6 +4,20 @@ Projeto de estudo em Go sobre catálogos dinâmicos, filtros SQL parametrizados 
 
 Este repositório reúne um exemplo de API para consultar dados com campos dinâmicos. O domínio de funcionários é usado como demonstração dos padrões, que podem servir de referência para outros projetos.
 
+## Trilha de aprendizado
+
+Para aprender o funcionamento passo a passo, comece pelo [mapa de leitura e localização dos arquivos](docs/00-mapa-de-leitura.md). O [índice da documentação](docs/README.md) organiza os capítulos e o [glossário](docs/08-glossario.md) explica os termos usados.
+
+1. [Fundamentos de Go e inicialização](docs/01-fundamentos-e-inicializacao.md).
+2. [Catálogo, snapshot e cache](docs/02-catalogo-snapshot-e-cache.md): construtor, listas, mapas por chave, ponteiros, TTL, mutex, recarga e invalidação.
+3. [Campos dinâmicos e parâmetros SQL](docs/03-campos-dinamicos-e-sql.md).
+4. [Filtros passo a passo](docs/04-filtros-passo-a-passo.md).
+5. [Repository e consultas](docs/05-repository-e-consultas.md).
+6. [HTTP e um fluxo completo de requisição](docs/06-http-e-fluxo-completo.md).
+7. [Testes e exercícios de leitura](docs/07-testes-e-exercicios.md).
+
+Cada capítulo aponta para o código correspondente, explica o motivo das peças e acompanha exemplos. Você pode seguir a trilha sem conectar a um banco.
+
 ## O que estudar
 
 - Catálogo de metadados para descrever o tipo, a origem e a unidade de cada campo.
